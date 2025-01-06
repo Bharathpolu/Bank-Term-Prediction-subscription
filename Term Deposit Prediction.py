@@ -1,35 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# 
-# The banking industry faces a persistent challenge of losing term deposits. To solve this problem and help banks save marketing cost, we built various models such as logistic regression, DecisionTree Classifier and RandomForest Classfier to find out the most reliable one for banks to recognize the customers who are likely to subcribe to a term deposit by predicting their decisions based on the data banks so that they can focus marketing efforts on them.
-# 
-# We'll begin with the most simple and interpretable logistic regression since it gives us good understanding of the data, and then we will apply DecisionTree Classifier, then RandomForest Classfier, since RandomForest Classfier is more accurate and less prone to overfitting compared to other models and also provides feature importance scores, which can help identify the key factors that significantly influence customers' decisions regarding term deposits.
-#  
-# 
-
-# This dataset pertains to direct phone call marketing campaigns conducted by a banking institution between May 2008 and November 2010. It comprises 40,841 observations, each representing an existing customer contacted via phone calls.
-# 
-# For each observation, the dataset records 16 input variables encompassing both qualitative and quantitative attributes of the customer, including age, occupation, housing and personal loan status, account balance, and the number of contacts. The dataset also includes a single binary output variable indicating the outcome of the phone calls, denoted by "yes" or "no".
-# 
-# While there are no missing values in the dataset, certain values such as "unknown" and "others" are considered uninformative, akin to missing values, and are therefore removed. Additionally, to capture the overall trend in the dataset, outliers in the "balance" column are eliminated. Outliers are identified as values exceeding three standard deviations from the mean. 
-# ls.
-# We have used the preprocessed data for this machine learning models
-
-# Three different classification algorithms (Logistic Regression, DecisionTree Classifier, RandomForest Classfier) are run on the dataset and the best-performing one will be used to build the classification model.
-
-# In[ ]:
-
-
-
-
-
 # In[1]:
 
 
