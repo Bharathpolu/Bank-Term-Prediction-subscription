@@ -1,4 +1,4 @@
-# Term Deposit Prediction
+# Predictive Modeling for term deposit subscriptions
 
 This project addresses the challenge faced by the banking industry in identifying customers likely to subscribe to term deposits. Using machine learning, it helps banks optimize marketing efforts and reduce costs.
 
